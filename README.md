@@ -33,6 +33,4 @@ O sistema foi desenhado seguindo princípios de bancos de dados relacionais para
 
 Você pode interagir diretamente com a estrutura do sistema, fórmulas e layout do dashboard através do link abaixo:
 
-🔗 [![Acesse o Projeto de Forma Interativa](<img width="1286" height="495" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/779c1da0-a1b6-4932-8480-e523e7fe45c6" />
-)](https://docs.google.com/spre![Uploading Dashboard Sistema Automatizado de Gestão de Estoque.png…]()
-adsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
+🔗[![Acesse o Projeto de Forma Interativa](https://github.com/user-attachments/assets/779c1da0-a1b6-4932-8480-e523e7fe45c6)](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
