@@ -49,5 +49,5 @@ O dashboard consolida de forma automatizada e preditiva as janelas de horários 
 ## 🚀 Como Visualizar e Interagir com o Projeto
 Você pode explorar diretamente toda a engenharia de fórmulas, a árvore de SKUs com mais de 3.000 células cadastradas e a interface de IA acessando o link oficial do projeto:
 
-🔗 
+🔗 Acesse o Projeto de Forma Interativa Clicando no Dashboard!
 [![Acesse o Projeto de Forma Interativa](https://github.com/user-attachments/assets/a813d026-7a44-4630-a804-e7ee32a85017)](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
