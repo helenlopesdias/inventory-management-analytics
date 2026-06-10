@@ -33,4 +33,4 @@ O sistema foi desenhado seguindo princípios de bancos de dados relacionais para
 
 Você pode interagir diretamente com a estrutura do sistema, fórmulas e layout do dashboard através do link abaixo:
 
-🔗 [![Acesse o Projeto de Forma Interativa](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
+🔗 [Acesse o Projeto de Forma Interativa](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
