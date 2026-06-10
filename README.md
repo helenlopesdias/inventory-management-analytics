@@ -1,4 +1,4 @@
-# Sistema Automatizado de Gestão de Estoque & Analytics — Loja X
+# Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
 
 ## 📌 Contexto e Escopo de Trabalho (Scope of Work)
 Este projeto foi desenvolvido como uma solução de engenharia de dados e business intelligence aplicada a um cenário real de varejo no segmento de dispositivos móveis. O objetivo foi resolver a ausência de controle automatizado de entradas/saídas e a falta de indicadores estratégicos para a tomada de decisão da gerência.
@@ -33,4 +33,4 @@ O sistema foi desenhado seguindo princípios de bancos de dados relacionais para
 
 Você pode interagir diretamente com a estrutura do sistema, fórmulas e layout do dashboard através do link abaixo:
 
-🔗[![Acesse o Projeto de Forma Interativa](https://github.com/user-attachments/assets/779c1da0-a1b6-4932-8480-e523e7fe45c6)](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
+🔗Clique na imagem para ter acesso ao dashboard[![Acesse o Projeto de Forma Interativa](https://github.com/user-attachments/assets/779c1da0-a1b6-4932-8480-e523e7fe45c6)](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
