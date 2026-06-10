@@ -29,10 +29,8 @@ O sistema foi desenhado seguindo princípios de bancos de dados relacionais para
 - **Tratamento de Exceções na Formatação Condicional (Foco em UX):** Em vez de aplicar uma regra genérica que pinta de vermelho qualquer estoque zerado, o sistema foi configurado para remover a formatação condicional dos modelos que sequer possuem aquele tipo de produto no mercado (por exemplo, modelos de celular que não têm fabricação de película de cerâmica). Isso evita "falsos positivos" visuais de estoque zerado, poupando a atenção do gestor e permitindo que ele foque apenas nos produtos que realmente precisam de reposição. Modelos de smartphones que não possuem fabricação de películas de cerâmica, por exemplo, ignoram o alerta visual de desabastecimento. Isso elimina "falsos positivos", poupa a atenção do gestor e otimiza o foco apenas nas reposições que são criticamente necessárias.
 - **Análise Temporal e Comportamental:** O dashboard consolida de forma automatizada os horários de maior movimento na loja e os dias da semana com maior volume de vendas, permitindo à gerência planejar melhor as escalas de funcionários e ações promocionais de forma preditiva.
 
----
-
-## 🔗 Acesse o Projeto de Forma Interativa
+--- 
 
 Você pode interagir diretamente com a estrutura do sistema, fórmulas e layout do dashboard através do link abaixo:
 
-👉 ([COLE_AQUI_O_SEU_LINK_COMPARTILHADO](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing))
+🔗 [![Acesse o Projeto de Forma Interativa](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
