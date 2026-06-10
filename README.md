@@ -1,38 +1,54 @@
-# Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
+# 🚀 Sistema Automatizado de Gestão de Estoque & Analytics — Loja X
 
 ## 📌 Contexto e Escopo de Trabalho (Scope of Work)
-Este projeto foi desenvolvido como uma solução de engenharia de dados e business intelligence aplicada a um cenário real de varejo no segmento de dispositivos móveis. O objetivo foi resolver a ausência de controle automatizado de entradas/saídas e a falta de indicadores estratégicos para a tomada de decisão da gerência.
+Este projeto foi desenvolvido como uma solução de engenharia de dados, automação e *business intelligence* aplicada a um cenário real de varejo no segmento de dispositivos móveis. O objetivo principal foi mitigar a ausência de controle automatizado de fluxos de entradas/saídas e preencher a lacuna de indicadores estratégicos para a tomada de decisão gerencial.
 
-*Nota: Para fins de portfólio e conformidade com a privacidade de dados comerciais, o nome real da empresa foi omitido (adotando-se "Loja X"), preservando integralmente os dados analíticos de um período de 7 dias de vendas, a lógica de negócios e a arquitetura técnica do sistema.*
-
-### 🎯 Objetivos do Projeto
-- **Centralização:** Criar um repositório único, estruturado e confiável para o histórico de movimentações da loja.
-- **Automação de Estoque:** Desenvolver um controle de inventário inteligente que calcula saldos de forma automatizada e sinaliza alertas visuais de reposição.
-- **Business Intelligence:** Estruturar um dashboard executivo para monitoramento de faturamento, ticket médio, comportamento de consumo e fluxos de horários de pico.
-- **Acessibilidade e Custo Zero:** Implementar a solução utilizando o **Google Sheets**, garantindo operação em nuvem sem custos de licença para o cliente e com foco em UX (User Experience) para operadores com baixa maturidade tecnológica.
+> **Nota:** Para fins de portfólio e conformidade com as diretrizes de privacidade de dados comerciais, o nome real da empresa foi omitido (adotando-se "Loja X"), preservando integralmente a lógica de negócios, o histórico analítico de vendas e a arquitetura técnica desenvolvida.
 
 ---
 
-## Arquitetura e Modelagem dos Dados
-
-O sistema foi desenhado seguindo princípios de bancos de dados relacionais para garantir consistência, performance e escalabilidade:
-
-1. **Camada de Ingestão (Lançamentos):** Uma tabela fato unificada, alimentada cronologicamente pelos operadores da loja. Contém chaves exclusivas (IDs/SKUs de produtos), registros de tipo de movimentação (Entrada/Saída), volumes, valores unitários, totais automáticos e métodos de pagamento.
-2. **Camada de Processamento (Dimensões de Estoque):** Abas separadas por categoria de produto (*Estoque Capa* e *Estoque Película*) que processam as movimentações da tabela fato utilizando fórmulas dinâmicas e matriciais.
-3. **Camada de Visualização (Dashboard):** Painel executivo dinâmico alimentado em tempo real pelas camadas anteriores, sintetizando dados brutos em insights acionáveis.
+## 🎯 Objetivos do Projeto
+*   **Centralização e Robustez:** Estruturar um repositório único, confiável e escalável para o histórico de movimentações, processando com alta performance um ecossistema com **mais de 3.000 células de cadastro de produtos**.
+*   **Automação Logística & IA Preditiva:** Desenvolver um controle de inventário inteligente que calcula saldos de forma automatizada e aciona tomadas de decisão em tempo real por meio de inteligência artificial.
+*   **Business Intelligence (BI):** Consolidar um dashboard executivo para monitoramento de faturamento, ticket médio, comportamento de consumo e fluxos de horários de pico.
+*   **Acessibilidade e Custo Zero:** Implementar a solução utilizando o ecossistema em nuvem do Google Sheets, garantindo custo zero de licenciamento e aplicando conceitos de *Data UX* (Experiência do Usuário com Dados) para operadores de qualquer nível de maturidade tecnológica.
 
 ---
 
-## 💡 Regras de Negócio Otimizadas e Diferenciais Técnicos
+## 🛠️ Arquitetura e Modelagem dos Dados
+O sistema foi desenhado seguindo os princípios de modelagem de bancos de dados relacionais para garantir a consistência e a integridade referencial:
 
-- **Escalabilidade Sem Manutenção (À prova de futuro):** O uso de tabelas estruturadas e referências dinâmicas garante que novas linhas inseridas na rotina diária da loja sejam computadas automaticamente, eliminando a necessidade de manutenção manual ou reescrita de fórmulas.
-- **Tratamento de Exceções na Formatação Condicional (Foco em UX):** Em vez de aplicar uma regra genérica que pinta de vermelho qualquer estoque zerado, o sistema foi configurado para remover a formatação condicional dos modelos que sequer possuem aquele tipo de produto no mercado (por exemplo, modelos de celular que não têm fabricação de película de cerâmica). Isso evita "falsos positivos" visuais de estoque zerado, poupando a atenção do gestor e permitindo que ele foque apenas nos produtos que realmente precisam de reposição. Modelos de smartphones que não possuem fabricação de películas de cerâmica, por exemplo, ignoram o alerta visual de desabastecimento. Isso elimina "falsos positivos", poupa a atenção do gestor e otimiza o foco apenas nas reposições que são criticamente necessárias.
-- **Análise Temporal e Comportamental:** O dashboard consolida de forma automatizada os horários de maior movimento na loja e os dias da semana com maior volume de vendas, permitindo à gerência planejar melhor as escalas de funcionários e ações promocionais de forma preditiva.
+1. **Camada de Ingestão (Tabela Fato — Lançamentos):** Base unificada alimentada cronologicamente de forma operacional. Contém chaves exclusivas (IDs/SKUs de produtos), tipo de movimentação (*Entrada/Saída*), volumes, valores unitários, totais calculados e métodos de pagamento.
+2. **Camada de Processamento (Tabelas Dimensão — Estoque):** Abas segmentadas por categoria (`Estoque Capa` e `Estoque Película`). Uma estrutura massiva que gerencia **mais de 3.000 células de dados de SKUs específicos**, cruzando variáveis complexas (modelos de aparelhos *versus* atributos como cores e tipos de blindagem) via fórmulas dinâmicas e matriciais.
+3. **Camada de Integração GenAI (SheetGPT):** Motor de Inteligência Artificial integrado via API que atua como um consultor de negócios analítico direto na planilha.
+4. **Camada de Visualização (Dashboard Executivo):** Painel gerencial alimentado em tempo real, sintetizando dados brutos em métricas acionáveis.
 
---- 
+---
 
-Você pode interagir diretamente com a estrutura do sistema, fórmulas e layout do dashboard através do link abaixo:
+## 💡 Regras de Negócio Otimizadas & Diferenciais Técnicos
 
-🔗 **Clique na imagem para ter acesso ao dashboard**
+### 🤖 1. Automação de Ações de Negócio via Inteligência Artificial (GenAI)
+O maior diferencial técnico do sistema é a transição da análise passiva para a **ação automatizada**. Utilizando o `SheetGPT`, a planilha analisa o saldo atual de cada um dos produtos cadastrados e gera comandos textuais customizados de forma preditiva na coluna **"Ação Automatizada (IA)"**:
+*   **Estoque Crítico / Ruptura (Qtd = 0):** A IA detecta a falta do item e redige automaticamente uma mensagem de compra formal e urgente otimizada para envio imediato ao fornecedor via WhatsApp.
+*   **Estoque Cheio / Oportunidade (Qtd > 20):** A IA identifica o capital imobilizado e cria dinamicamente *copys* publicitárias e ganchos de vendas de alta conversão para o time de marketing disparar nas redes sociais (TikTok/Instagram), forçando o giro do produto.
+*   **Estoque Saudável:** O sistema valida o equilíbrio do inventário e sugere estratégias de *cross-selling* (vendas cruzadas) para os vendedores oferecerem no balcão da loja.
 
+### 🎨 2. Data UX e Redução de Carga Cognitiva (Formatação Condicional Dinâmica)
+Para evitar que o gestor perca tempo lendo relatórios extensos, foi aplicada uma camada de **Experiência do Usuário (UX)** através de formatação condicional por palavras-chave na coluna de IA:
+*   Alertas de **Reposição Crítica** acionam automaticamente preenchimentos em tons vermelhos (Urgência).
+*   Gatilhos de **Ações Promocionais** ganham destaque em azul/amarelo (Oportunidade).
+*   Validações de **Estoque Saudável** são formatadas em verde (Estabilidade operacional).
+
+### 🔍 3. Tratamento de Exceções e Eliminação de "Falsos Positivos"
+Em vez de aplicar regras genéricas de coloração para células zeradas, as fórmulas matriciais foram configuradas para contextualizar o mercado de tecnologia. Modelos de smartphones que sabidamente não possuem fabricação de determinadas variações (ex: películas de cerâmica para modelos específicos) ignoram os alertas visuais de desabastecimento. Isso poupa a atenção do gestor, direcionando o foco apenas para o que realmente precisa ser comprado.
+
+### 📅 4. Análise Temporal Sazonal
+O dashboard consolida de forma automatizada e preditiva as janelas de horários de pico e a distribuição do volume de vendas por dia da semana (identificando a quinta-feira como o período de maior tráfego), otimizando a escala de funcionários e o planejamento logístico da empresa.
+
+---
+
+## 🚀 Como Visualizar e Interagir com o Projeto
+Você pode explorar diretamente toda a engenharia de fórmulas, a árvore de SKUs com mais de 3.000 células cadastradas e a interface de IA acessando o link oficial do projeto:
+
+🔗 **[Acessar o Sistema Automatizado de Estoque no Google Sheets](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)**
 [![Acesse o Projeto de Forma Interativa](https://github.com/user-attachments/assets/a813d026-7a44-4630-a804-e7ee32a85017)](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
