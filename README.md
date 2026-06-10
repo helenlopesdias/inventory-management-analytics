@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como uma solução de engenharia de dados e busine
 
 ---
 
-## 🏗️ Arquitetura e Modelagem dos Dados
+## Arquitetura e Modelagem dos Dados
 
 O sistema foi desenhado seguindo princípios de bancos de dados relacionais para garantir consistência, performance e escalabilidade:
 
