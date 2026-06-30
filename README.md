@@ -1,4 +1,4 @@
-# 🚀 Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
+# Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
 
 ## 📌 Contexto do Projeto
 
