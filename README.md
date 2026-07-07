@@ -1,3 +1,8 @@
+![<img width="1294" height="498" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5" />
+https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing]
+<!--Você pode explorar a estrutura da solução, as fórmulas utilizadas e o dashboard interativo através do link acima! -->
+
+
 # Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
 
 ## 📌 Contexto do Projeto
@@ -123,13 +128,3 @@ A solução identifica padrões de vendas e períodos de maior movimento, apoian
 - Criação de indicadores para suporte à tomada de decisão.
 - Implementação de uma solução acessível e de baixo custo para um pequeno negócio.
 
----
-
-## 🔗 Acesse o Projeto
-
-Você pode explorar a estrutura da solução, as fórmulas utilizadas e o dashboard interativo através do link abaixo:
-
-📊 **Versão Interativa do Projeto:**
-
-![<img width="1294" height="498" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5" />
-https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing]
