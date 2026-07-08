@@ -1,6 +1,5 @@
-![<img width="1294" height="498" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5" />
-https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing]
-<!--Você pode explorar a estrutura da solução, as fórmulas utilizadas e o dashboard interativo através do link acima! -->
+![<img width="1294" height="498" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5"/>https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing]
+
 
 
 # Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
