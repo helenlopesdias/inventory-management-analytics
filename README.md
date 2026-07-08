@@ -3,9 +3,6 @@
 </a>
 
 ### [Clique aqui para acessar o Dashboard Interativo e navegar pelos dados](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
-*(Clique na imagem para acessar o projeto!)*
-
-
 
 # Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
 
