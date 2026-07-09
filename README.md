@@ -1,5 +1,13 @@
 https://github.com/user-attachments/assets/1232570c-1f33-469c-91b1-1c18378354c4
 # Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
+<p align="center">
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
+  <img src="https://img.shields.io/badge/SheetGPT-FF6F00?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Analysis-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white" />
+</p>
+
+---
 
 ## 📌 Contexto do Projeto
 
@@ -63,16 +71,34 @@ Com base nas quantidades disponíveis, a IA é capaz de:
 - Sugerir ações para produtos com excesso de estoque.
 - Auxiliar a tomada de decisão de forma rápida e prática.
 
+
+# Como a IA Gera as Recomendações de Reposição?
+Para automatizar a análise de estoque, foi criada uma coluna auxiliar responsável por consolidar as principais informações de cada item, incluindo:
+
+- Modelo do aparelho
+- Variação do produto
+- Quantidade disponível em estoque
+<img width="422" height="224" alt="image" src="https://github.com/user-attachments/assets/dd3a8e93-1a78-41b1-a3f4-33bbf8e23134" />
+
+Essas informações eram enviadas à extensão **SheetGPT** por meio da função `=GPT()`, utilizando um prompt estruturado para analisar os níveis de estoque e identificar necessidades de reposição.
+<img width="429" height="402" alt="image" src="https://github.com/user-attachments/assets/3056e745-6980-4f1a-80e4-38c066de12a9" />
+
+Com base nesses dados, a IA retornava automaticamente uma lista contendo:
+
+- Modelo do produto
+- Variação correspondente
+- Quantidade necessária para reposição
+
+Essa automação permitiu transformar informações operacionais em recomendações práticas para apoio ao processo de compras e gestão de estoque, reduzindo significativamente o tempo gasto com análises manuais.
+
 > [!IMPORTANT]
-> **Observação sobre a versão pública do projeto**
+> **Observação sobre a versão pública**
 >
-> A versão original utilizada pela Loja X conta com integração ativa da extensão **SheetGPT**, responsável por gerar automaticamente as recomendações da coluna **"Lista de Reposição (IA)"**.
+> A versão original utilizada pela Loja X conta com integração ativa da extensão **SheetGPT**, responsável pela geração automática das recomendações de reposição.
 >
-> Como a licença da extensão possui prazo de validade e não está disponível nesta versão pública, foi necessário preservar uma cópia dos resultados gerados na implementação original.
+> Como a licença da extensão possui prazo de validade e não está disponível nesta versão pública, a coluna **"Lista de Reposição (IA)"** foi preservada com os resultados gerados durante a utilização da solução original.
 >
-> Dessa forma, a coluna **"Lista de Reposição (IA)"** apresenta exemplos reais de recomendações produzidas pela integração com IA, porém não realiza atualizações automáticas nesta versão disponibilizada para demonstração e portfólio.
-
-
+> Dessa forma, os exemplos apresentados refletem recomendações reais produzidas pela IA, porém não são atualizados automaticamente nesta versão disponibilizada para fins de demonstração e portfólio.
 ---
 
 ### 4️⃣ Dashboard Gerencial
