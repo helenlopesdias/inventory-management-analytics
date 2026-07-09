@@ -71,7 +71,7 @@ Com base nas quantidades disponíveis, a IA é capaz de:
 - Auxiliar a tomada de decisão de forma rápida e prática.
 
 
-# Como a IA Gera as Recomendações de Reposição?
+#### Como a IA Gera as Recomendações de Reposição?
 Para automatizar a análise de estoque, foi criada uma coluna auxiliar responsável por consolidar as principais informações de cada item, incluindo:
 
 - Modelo do aparelho
