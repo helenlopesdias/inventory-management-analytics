@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/1232570c-1f33-469c-91b1-1c18378354c4
 
 ---
 
-## 📌 Contexto do Projeto
+## Contexto do Projeto
 
 Este projeto foi desenvolvido como uma solução prática de análise de dados, automação e business intelligence aplicada à realidade de um comércio local do segmento de dispositivos móveis.
 
@@ -18,7 +18,7 @@ O objetivo foi solucionar problemas relacionados ao controle de estoque, registr
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 - Centralizar o controle de entradas e saídas de produtos em uma única plataforma.
 - Estruturar e organizar uma base com mais de 3.500 células relacionadas ao cadastro e controle de produtos.
@@ -28,7 +28,7 @@ O objetivo foi solucionar problemas relacionados ao controle de estoque, registr
 
 ---
 
-## 🛠️ Estrutura da Solução
+## Estrutura da Solução
 
 ### 1️⃣ Registro de Movimentações
 
@@ -117,9 +117,9 @@ Principais indicadores:
 
 ---
 
-## 💡 Principais Funcionalidades
+## Principais Funcionalidades
 
-### 🤖 Automação da Lista de Reposição
+### Automação da Lista de Reposição
 
 Antes da implementação da solução, a identificação de produtos para reposição era realizada manualmente, consumindo até dois dias de trabalho.
 
@@ -133,7 +133,7 @@ Foram implementadas regras de validação para reduzir erros de preenchimento e 
 
 ---
 
-### 🎨 Alertas Visuais
+### Alertas Visuais
 
 O sistema utiliza formatação condicional para destacar automaticamente situações importantes:
 
@@ -145,7 +145,7 @@ Isso permite uma análise rápida mesmo para usuários sem conhecimento técnico
 
 ---
 
-### 📊 Análise de Comportamento de Vendas
+### Análise de Comportamento de Vendas
 
 A solução identifica padrões de vendas e períodos de maior movimento, apoiando decisões relacionadas a estoque, compras e operação da loja.
 
