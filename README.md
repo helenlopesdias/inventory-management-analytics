@@ -1,7 +1,6 @@
 https://github.com/user-attachments/assets/1232570c-1f33-469c-91b1-1c18378354c4
 # Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
 <p align="center">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
   <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
   <img src="https://img.shields.io/badge/SheetGPT-FF6F00?style=for-the-badge&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Data_Analysis-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white" />
