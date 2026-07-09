@@ -1,10 +1,4 @@
-# Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
-<a href="https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing" target="_blank">
-  <img width="1294" height="498" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5">
-</a>
-
-### [Clique aqui para acessar o Dashboard Interativo e navegar pelos dados](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
-
+https://github.com/user-attachments/assets/1232570c-1f33-469c-91b1-1c18378354c4
 # Sistema Automatizado de Gestão de Estoque & Analytics - Loja X
 
 ## 📌 Contexto do Projeto
@@ -69,6 +63,16 @@ Com base nas quantidades disponíveis, a IA é capaz de:
 - Sugerir ações para produtos com excesso de estoque.
 - Auxiliar a tomada de decisão de forma rápida e prática.
 
+> [!IMPORTANT]
+> **Observação sobre a versão pública do projeto**
+>
+> A versão original utilizada pela Loja X conta com integração ativa da extensão **SheetGPT**, responsável por gerar automaticamente as recomendações da coluna **"Lista de Reposição (IA)"**.
+>
+> Como a licença da extensão possui prazo de validade e não está disponível nesta versão pública, foi necessário preservar uma cópia dos resultados gerados na implementação original.
+>
+> Dessa forma, a coluna **"Lista de Reposição (IA)"** apresenta exemplos reais de recomendações produzidas pela integração com IA, porém não realiza atualizações automáticas nesta versão disponibilizada para demonstração e portfólio.
+
+
 ---
 
 ### 4️⃣ Dashboard Gerencial
@@ -130,3 +134,10 @@ A solução identifica padrões de vendas e períodos de maior movimento, apoian
 - Criação de indicadores para suporte à tomada de decisão.
 - Implementação de uma solução acessível e de baixo custo para um pequeno negócio.
 
+---
+
+<a href="https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing" target="_blank">
+  <img width="1294" height="498" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5">
+</a>
+
+### [Clique aqui para acessar o Dashboard Interativo e navegar pelos dados](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
