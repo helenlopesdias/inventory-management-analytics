@@ -162,8 +162,10 @@ A solução identifica padrões de vendas e períodos de maior movimento, apoian
 
 ---
 
-<a href="https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing" target="_blank">
-  <img width="1294" height="498" alt="Dashboard Sistema Automatizado de Gestão de Estoque" src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5">
+<a href="https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing">
+  <img src="https://github.com/user-attachments/assets/22885cb0-b80e-481c-a8f4-fac3257e70a5" alt="Dashboard Sistema Automatizado de Gestão de Estoque">
 </a>
 
-### [Clique aqui para acessar o Dashboard Interativo e navegar pelos dados](https://docs.google.com/spreadsheets/d/1DnY4iPnXM5w8HTaNlF9ycDwNeiHDSNcCR_t2HNPLl3I/edit?usp=sharing)
+<p align="center">
+  <strong>Clique na imagem para acessar a versão interativa do projeto.</strong>
+</p>
