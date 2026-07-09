@@ -77,9 +77,11 @@ Para automatizar a análise de estoque, foi criada uma coluna auxiliar responsá
 - Modelo do aparelho
 - Variação do produto
 - Quantidade disponível em estoque
+
 <img width="422" height="224" alt="image" src="https://github.com/user-attachments/assets/dd3a8e93-1a78-41b1-a3f4-33bbf8e23134" />
 
 Essas informações eram enviadas à extensão **SheetGPT** por meio da função `=GPT()`, utilizando um prompt estruturado para analisar os níveis de estoque e identificar necessidades de reposição.
+
 <img width="429" height="402" alt="image" src="https://github.com/user-attachments/assets/3056e745-6980-4f1a-80e4-38c066de12a9" />
 
 Com base nesses dados, a IA retornava automaticamente uma lista contendo:
